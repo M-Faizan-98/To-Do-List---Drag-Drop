@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="/app.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body class="body">
+    <div class="container">
+      <div class="todo-app">
+        <div>
+          <div class="heading-box">
+            <h2>
+              To-Do List
+              <img
+                src="https://i.postimg.cc/gkGrrBMR/list-svgrepo-com.png"
+                alt=""
+              />
+            </h2>
+            <p id="counter"></p>
+          </div>
+          <div class="row row1" id="row1">
+            <input
+              type="text"
+              name=""
+              id="input-box"
+              placeholder="Add your Task"
+            />
+          </div>
+
+          <ul id="list-container" class="box-1"></ul>
+        </div>
+
+        <div class="row row2">
+          <button id="btn">Add Task</button>
+        </div>
+      </div>
+      <div class="todo-app todo-app-2">
+        <div class="heading-box">
+          <h2>
+            Completed
+            <img
+              src="https://i.postimg.cc/5200SQW2/list-check-svgrepo-com.png"
+              alt=""
+            />
+          </h2>
+          <p id="counter2"></p>
+        </div>
+        <ul id="list-container-2" class="box-1"></ul>
+      </div>
+    </div>
+  </body>
+</html>
